@@ -1,4 +1,4 @@
-# Simple Next.js and Moralis Frontend for Fund Me
+# Simple Next.js and WebModal Frontend for Fund Me
 
 This is a [Next.js](https://nextjs.org/) project bootstrapped with [`create-next-app`](https://github.com/vercel/next.js/tree/canary/packages/create-next-app).
 
