@@ -2,7 +2,7 @@
 
 This is a [Next.js](https://nextjs.org/) project bootstrapped with [`create-next-app`](https://github.com/vercel/next.js/tree/canary/packages/create-next-app).
 
-This project is a Next.js and Moralis frontend for https://github.com/PCWCFA/fcc-hardhat-fund-me. Note that this is purely a proof of concept.
+This project is a Next.js and WebModal frontend for https://github.com/PCWCFA/fcc-hardhat-fund-me. Note that this is purely a proof of concept.
 
 ## Setup & Configuration
 
@@ -22,14 +22,13 @@ You can start editing the page by modifying `pages/index.js`. The page auto-upda
 
 ### hardhat-fund-me-fcc
 
-- Run fcc-hardhat-fund-me on hardhat's localhost with
-  "yarn hardhat node" to deploy the contracts on the localhost
-- Note the contract address
-- Copy this contract address to pages/constants.js's contractAddress
+- Deploy the contract on Rinkeby
+- Note the contract address and put it in constants/constants.js as contractAddress
+- Note the contract ABI in Etherscan and replace the supplied ABI. The supplied ABI is of an older deployed Fund Me that does not have a getOwner() function.
 
 ### Metamask
 
-- Import the localhost deployer account address (usually account[0] depending on your hardhat.helper.config's namedAccounts configuration) in Metamask
+- Assuming you deployed the Fund Me contract from the Metamask with which you are testing this frontend, there is no further configuration.
 
 ## Learn More
 
